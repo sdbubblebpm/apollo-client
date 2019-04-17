@@ -365,7 +365,6 @@ export class ObservableQuery<
             ...fetchMoreOptions,
             variables: Object.assign(
               {},
-              this.variables,
               fetchMoreOptions.variables,
             ),
           };
